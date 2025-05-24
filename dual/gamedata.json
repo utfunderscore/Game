@@ -1,1 +1,10 @@
-{"maxPlayers":2,"minStartPlayers":2,"playersReachedCountdown":15,"gameStartingMessage":"&7Game starting in &9{time} seconds","awaitingPlayers":"&7Waiting for &9{players} &7more players...","playerJoinMessage":"&9{player} &7has joined the game &b({players}/{max})","playerLeaveMessage":"&9{player} &7has left the game &b({players}/{max})","gameRevision":0}
+{
+  "maxPlayers": 2,
+  "minStartPlayers": 2,
+  "playersReachedCountdown": 15,
+  "gameStartingMessage": "&7Game starting in &9{time} seconds",
+  "awaitingPlayers": "&7Waiting for &9{players} &7more players...",
+  "playerJoinMessage": "&9{player} &7has joined the game &b({players}/{max})",
+  "playerLeaveMessage": "&9{player} &7has left the game &b({players}/{max})",
+  "gameRevision": 0
+}

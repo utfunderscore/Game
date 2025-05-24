@@ -1,11 +1,10 @@
 plugins {
-    kotlin("jvm") version "2.1.0"
     `maven-publish`
     `java-library`
 }
 
 group = "org.readutf.arena"
-version = "1.2.1"
+version = "1.2.3"
 
 repositories {
     mavenLocal()
@@ -17,7 +16,7 @@ dependencies {
 
 subprojects {
 
-    apply(plugin = "kotlin")
+    apply(plugin = "java-library")
     apply(plugin = "maven-publish")
 
     group = rootProject.group
@@ -43,7 +42,4 @@ subprojects {
 
 tasks.test {
     useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(21)
 }
